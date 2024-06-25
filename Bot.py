@@ -5,8 +5,8 @@ import logging
 
 logging.basicConfig(level=logging.INFO)
 
-BOT_TOKEN = '7291982864:AAHapsvMKzbAerXd1ibhf7DtSYss2FRuXtI'
-GOOGLE_API_KEY = "AIzaSyC3Qajvwjaw4yyrvPpC8vvZgjUISa1tUHg"
+BOT_TOKEN = 'YOUR_TELEGRAM_API'
+GOOGLE_API_KEY = "YOUR_GOGGLE_GEMINI_API"
 
 try:
     gen_ai.configure(api_key=GOOGLE_API_KEY)
